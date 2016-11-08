@@ -1,0 +1,40 @@
+#navbar {
+	background-color:blue;
+	border: 2px solid red;
+}
+
+
+a {
+	color: yellow;
+}
+
+#fixer li:hover {
+	background-color:#ff0000;
+}
+
+a:hover {
+	background-color:red;
+	text-decoration:none;
+}
+
+.navbar-toggle {
+	color: yellow;
+}
+.navbar-toggle:hover {
+	color:red;
+}
+
+.jumbotron {
+	background-image: url('http://3.bp.blogspot.com/-oSpLzlM1Rew/Td_M1fD40EI/AAAAAAAAAIY/oiibWOrYft0/s1600/thomnd%2Bpark%2B2.JPG');
+	position: fixed left 100px;
+	color: yellow;
+	border-bottom:2px solid red;
+}
+
+.jumbotron p {
+	font-size: 3em;
+}
+
+#lower {
+	font-size: 3em;
+}
