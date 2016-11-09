@@ -13,8 +13,8 @@ a {
 }
 
 a:hover {
-	background-color:red;
 	text-decoration:none;
+	color:red;
 }
 
 .navbar-toggle {
@@ -25,8 +25,8 @@ a:hover {
 }
 
 .jumbotron {
-	background-image: url('http://3.bp.blogspot.com/-oSpLzlM1Rew/Td_M1fD40EI/AAAAAAAAAIY/oiibWOrYft0/s1600/thomnd%2Bpark%2B2.JPG');
-	position: fixed left 100px;
+	background-image: url('http://thomondpark.ie/cms_files/wp-content/themes/starkers/scripts/timthumb.php?src=http://thomondpark.ie/cms_files/wp-content/uploads/2010/10/Munster_haka.jpg&h=350&w=977&zc=1&q=100');
+	position: fixed left;
 	color: yellow;
 	border-bottom:2px solid red;
 }
