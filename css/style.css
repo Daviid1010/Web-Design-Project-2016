@@ -25,14 +25,29 @@ a:hover {
 .jumbotron {
 	background-image: url('http://limerickrugby.ie/wp-content/uploads/2014/03/Stand-up-and-Fight1.jpg');
 	position: absolute left;
-	color: yellow;
+	color: white;
 	border-bottom:2px solid red;
 }
 
 .jumbotron p {
 	font-size: 3em;
+	background-color:red;
+	text-align:center;
+	border:2px solid black;
 }
 
+.jumbotron h1 {
+	font-weight:bold;
+	width:45%;
+	padding-left:10px;
+	background:red;
+	border:2px solid black;
+}
+@media screen and (min-width 800px) {
+	.jumbotron h1 {
+		width:30%;
+	}
+}
 #lower {
 	font-size: 3em;
 }
