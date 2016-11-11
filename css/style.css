@@ -8,33 +8,47 @@ a {
 	color: yellow;
 }
 
-#fixer li:hover {
-	background-color:#ff0000;
+#fixer li a:hover {
+	background-color:yellow;
+	font-weight:bold;
 }
 
 a:hover {
-	background-color:red;
 	text-decoration:none;
+	color:red;
 }
 
 .navbar-toggle {
 	color: yellow;
 }
-.navbar-toggle:hover {
-	color:red;
-}
+
 
 .jumbotron {
-	background-image: url('http://3.bp.blogspot.com/-oSpLzlM1Rew/Td_M1fD40EI/AAAAAAAAAIY/oiibWOrYft0/s1600/thomnd%2Bpark%2B2.JPG');
-	position: fixed left 100px;
-	color: yellow;
+	background-image: url('http://limerickrugby.ie/wp-content/uploads/2014/03/Stand-up-and-Fight1.jpg');
+	position: absolute left;
+	color: white;
 	border-bottom:2px solid red;
 }
 
 .jumbotron p {
 	font-size: 3em;
+	background-color:red;
+	text-align:center;
+	border:2px solid black;
 }
 
+.jumbotron h1 {
+	font-weight:bold;
+	width:45%;
+	padding-left:10px;
+	background:red;
+	border:2px solid black;
+}
+@media screen and (min-width: 1200px) {
+	.jumbotron h1 {
+		width:30%;
+	}
+}
 #lower {
 	font-size: 3em;
 }
