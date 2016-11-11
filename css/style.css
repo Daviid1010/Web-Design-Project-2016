@@ -1,5 +1,5 @@
 #navbar {
-	background-color:blue;
+	background-color:#000f1a;
 	border: 2px solid red;
 }
 
@@ -27,7 +27,8 @@ a:hover {
 	background-image: url('http://limerickrugby.ie/wp-content/uploads/2014/03/Stand-up-and-Fight1.jpg');
 	position: absolute left;
 	color: white;
-	border-bottom:2px solid red;
+	margin:0px;
+	border-bottom:solid 2px #000f1a;
 }
 
 .jumbotron p {
@@ -53,3 +54,35 @@ a:hover {
 #lower {
 	font-size: 3em;
 }
+
+#main-content {
+	background-image: url('http://www.zingerbugimages.com/backgrounds/red_celtic_squares_seamless_background_pattern.jpg');
+}
+
+#row1 h2 {
+	font-size: 4em;
+	color:yellow;
+	font-weight:bold;
+	text-align:center;
+	font-style:italic;
+}
+
+#img1 img {
+	height:100%;
+	width:100%;
+	border:solid 2px #000f1a;
+	border-top:none;
+}
+
+#row1Left {
+	background:red;
+	padding-right:20px;
+	border:solid 2px #000f1a;
+	border-top:none;
+}
+
+#row1Left p {
+	color: white;
+	font-size:2em;
+	font-style:italic;
+	padding-left:10px;
