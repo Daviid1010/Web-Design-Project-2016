@@ -28,7 +28,6 @@ a:hover {
 	position: absolute left;
 	color: white;
 	margin:0px;
-	border-bottom:solid 2px #000f1a;
 }
 
 .jumbotron p {
@@ -59,7 +58,7 @@ a:hover {
 	background-image: url('http://www.zingerbugimages.com/backgrounds/red_celtic_squares_seamless_background_pattern.jpg');
 }
 
-#row1 h2 {
+#main-content h2 {
 	font-size: 4em;
 	color:yellow;
 	font-weight:bold;
@@ -67,22 +66,34 @@ a:hover {
 	font-style:italic;
 }
 
-#img1 img {
+#main-content img {
 	height:100%;
 	width:100%;
 	border:solid 2px #000f1a;
-	border-top:none;
 }
 
 #row1Left {
 	background:red;
 	padding-right:20px;
 	border:solid 2px #000f1a;
-	border-top:none;
 }
 
-#row1Left p {
+#main-content p {
 	color: white;
 	font-size:2em;
 	font-style:italic;
 	padding-left:10px;
+}
+
+#row2Left {
+	background:red;
+	padding-right:20px;
+	border:solid 2px #000f1a;
+}
+
+#row3Left {
+	background:red;
+	padding-right:20px;
+	border:solid 2px #000f1a;
+}
+
