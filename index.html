@@ -26,6 +26,12 @@
 							<li><a href="#">Gallery</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="#row1Left">Passion</a></li>
+							<li><a href="#row2Left">Glory</a></li>
+							<li><a href="#row3Left">Community</a></li>
+						</ul>
+						
 					</div>
 				</div>
 			</div>
@@ -48,7 +54,7 @@
 					<p>Munster Rugby has always been a club full of passion and a desire to play great rugby. Our supporters are world famous for their fanatical support of their team. Every time a player or fan puts on their Munster red they wear it with great pride. To us a defeat is just as bitter as a win! Join our community to experience the excitemnet and welcoming atmosphere at Munster Rugby!</p>
 				</div>
 				<div class="col-md-6" id='row1Right'>
-					<img src='http://www2.pictures.zimbio.com/gi/Munster+v+Northampton+Saints+Heineken+Cup+wR7AIkD28_Ll.jpg' alt='Passion'>
+					<img src='http://www2.pictures.zimbio.com/gi/Munster+v+Northampton+Saints+Heineken+Cup+wR7AIkD28_Ll.jpg' class="img-responsive" alt='Passion'>
 				</div>
 			</div>
 			<br/>
@@ -58,7 +64,7 @@
 					<p>Throughout the professional era of rugby, Munster has always been at the top levels of European Rugby. Crowned Kings of Europe in 2006 and 2008, Munster are no strangers to glory and prestige. Munster players have gone on to achieve glory for both Ireland and the Lions. Join us to experience that glory as part of a wide community!</p>
 				</div>
 				<div class="col-md-6" id="row2Right">
-					<img src="http://www.irishexaminer.com/remote/media.central.ie/media/images/a/AnthonyFoleyHeinekenCup2006_large.jpg?width=648&s=ie-427210" alt="Glory">
+					<img src="http://www.irishexaminer.com/remote/media.central.ie/media/images/a/AnthonyFoleyHeinekenCup2006_large.jpg?width=648&s=ie-427210"class="img-responsive" alt="Glory">
 				</div>
 			</div>
 			<br/>
@@ -68,8 +74,15 @@
 					<p>Munster is a rugby club that has always been about being a part of a community of rugby fans who have a love of the game and their province. The supporters of Munster Rugby are world renowned as being 'the 16th man' and have always been a crucial element to the success of Munster. This supporters group supports the ideals of community that is an integral part of our club. We hope that you can join us.</p>
 				</div>
 				<div class="col-md-6" id="row3Right">
-					<img src="http://www.rugby365.com/uploads/image/asset/14607/Munster-fans.jpg" alt="Community">
+					<img src="http://www.rugby365.com/uploads/image/asset/14607/Munster-fans.jpg" class="img-responsive" alt="Community">
 				</div>
+			</div>
+			<br/>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<footer>&copy; David Sheehy 2016<br/><a href="#">Back to top</a></footer>
 			</div>
 		</div>
 		
@@ -77,6 +90,22 @@
 		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 		crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script>
+		$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+		</script>
 
 	</body>
 </html>

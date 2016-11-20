@@ -97,3 +97,9 @@ a:hover {
 	border:solid 2px #000f1a;
 }
 
+.footer {
+	background-color:#000f1a;
+	min-height:160px;
+	text-align:center;
+	color:#fff;
+}
