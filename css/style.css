@@ -108,3 +108,21 @@ a:hover {
 #AboutUsPTag {
 	text-align:center;
 }
+
+.eventsBox {
+	background:red;
+	padding-right:20px;
+	border:solid 2px #000f1a;
+}
+
+.eventsBox li {
+	font-size:2em;
+	color:white;
+}
+
+.active {
+	background-color:yellow;
+	font-weight:bold;
+	text-decoration:none;
+	color:red;
+}
