@@ -22,11 +22,10 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<div id="fixer">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="..\index.html">Home</a></li>
 							<li><a href="#" class="active">About</a></li>
 							<li><a href="../Events/events.html">Events</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="..\Gallery/gallery.html">Gallery</a></li>
+							<li><a href="..\News/news.html">News</a></li>
 						</ul>
 					</div>
 				</div>
@@ -43,18 +42,24 @@
 
 		<div id="main-content">
 			<br/>
-			<div class="row" id="row1">
-				<div class="col-md-12" id="row1Left">
-					<h2>The Munster Mentality</h2>
-					<p id="AboutUsPTag">Munster Rugby has always been a fan-focused club. The entire club has been transformed over the last ten years through the professional era but it still retains it's values of top quality rugby, locally brought up players and playing for the supporters in the stands. This is site is about bringing together university students in Dublin so that they can experince a home atmosphere outisde of Munster!</p>
+			<div class="container">
+				<div class="row" id="row1">
+					<div class="col-md-12" id="row1Left">
+						<h2>The Munster Mentality</h2>
+						<p id="AboutUsPTag">Munster Rugby has always been a fan-focused club. The entire club has been transformed over the last ten years through the professional era but it still retains it's values of top quality rugby, locally brought up players and playing for the supporters in the stands. This is site is about bringing together university students in Dublin so that they can experince a home atmosphere outisde of Munster!</p>
+					</div>
 				</div>
-				<div class="col-md-6" id='AboutUsImage1'>
-					<img src='http://www.munsterrugby.ie/images/galleries/inpho_00177500.jpg' class="img-responsive" alt='About Us'>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" id='AboutUsImage1'>
+						<img src='http://www.munsterrugby.ie/images/galleries/inpho_00177500.jpg' class="img-responsive" alt='About Us'>
+					</div>
+					<div class="col-md-6" id='AboutUsImage2'>
+						<img src='https://static2.stuff.co.nz/1233108507/280/725280.jpg' class="img-responsive" alt='About Us'>
+					</div>
 				</div>
-				<div class="col-md-6" id='AboutUsImage2'>
-					<img src='https://static2.stuff.co.nz/1233108507/280/725280.jpg' class="img-responsive" alt='About Us'>
-				</div>
-			</div>	
+			</div>
 		</div>
 
 		<div class="footer">
@@ -67,22 +72,6 @@
 		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 		crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script>
-		$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-		</script>
 
 	</body>
 </html>
