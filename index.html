@@ -7,6 +7,7 @@
 	<link rel="icon" href="http://www.forza27.com/wp-content/uploads/2012/09/Munster-crest-small.jpg">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="aos-master/dist/aos.css" />
 	<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	
@@ -39,7 +40,7 @@
 		</div>
 		
 		<div class="jumbotron">
-			<div class="container">
+			<div class="container" id="topText">
 				<br/>
 				<p>This is the Munster Rugby Student's Suppoters Page</p>
 				<p id="lower">We are a community of college and university students who have a passion for Munster Rugby! We hope you can join us!</p>
@@ -50,23 +51,23 @@
 			<br/>
 			<div class="container">
 				<div class="row" id="row1">
-					<div class="col-md-6" id="row1Left">
+					<div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100" class="col-md-6" id="row1Left">
+						<img src='https://lightholler.files.wordpress.com/2014/04/red-army.gif' class="img-responsive" alt='Passion' onclick="popout1()">
+					</div>
+					<div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="200" class="col-md-6" id='row1Right'>
 						<h2>Passion</h2>
 						<p>Munster Rugby has always been a club full of passion and a desire to play great rugby. Our supporters are world famous for their fanatical support of their team. Every time a player or fan puts on their Munster red they wear it with great pride! Join our community to experience the excitemnet and welcoming atmosphere at Munster Rugby!</p>
-					</div>
-					<div class="col-md-6" id='row1Right'>
-						<img src='https://lightholler.files.wordpress.com/2014/04/red-army.gif' class="img-responsive" alt='Passion' onclick="popout1()">
 					</div>
 				</div>
 			</div>
 			<br/>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6" id="row2Left">
+					<div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200" class="col-md-6" id="row2Left">
 						<h2>Glory</h2>
 						<p>Throughout the professional era of rugby, Munster has always been at the top levels of European Rugby. Crowned Kings of Europe in 2006 and 2008, Munster are no strangers to glory and prestige. Munster players have gone on to achieve glory for both Ireland and the Lions. Join us to experience that glory as part of a wide community!</p>
 					</div>
-					<div class="col-md-6" id="row2Right">
+					<div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="100" class="col-md-6" id="row2Right">
 						<img src="http://www.irishexaminer.com/remote/media.central.ie/media/images/a/AnthonyFoleyHeinekenCup2006_large.jpg?width=648&s=ie-427210"class="img-responsive" alt="Glory" onclick="popout2()">
 					</div>
 				</div>
@@ -74,12 +75,13 @@
 			<br/>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6" id="row3Left">
+					<div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100" class="col-md-6" id="row3Left">
+						<img src="http://www.rugby365.com/uploads/image/asset/14607/Munster-fans.jpg" class="img-responsive" alt="Community" onclick="popout3()">
+					</div>
+					<div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="200" class="col-md-6" id="row3Right">
 						<h2>Community</h2>
 						<p>Munster is a rugby club that has always been about being a part of a community of rugby fans who have a love of the game and their province. The supporters of Munster Rugby are world renowned as being 'the 16th man' and have always been a crucial element to the success of Munster. This supporters group supports the ideals of community that is an integral part of our club. We hope that you can join us.</p>
-					</div>
-					<div class="col-md-6" id="row3Right">
-						<img src="http://www.rugby365.com/uploads/image/asset/14607/Munster-fans.jpg" class="img-responsive" alt="Community" onclick="popout3()">
+					
 					</div>
 				</div>
 			</div>
@@ -88,7 +90,7 @@
 
 		<div class="footer">
 			<div class="container">
-				<footer>&copy; David Sheehy 2016</footer>
+				<footer>&copy; Moonage Web Design <script>document.write(new Date().getFullYear());</script></footer>
 			</div>
 		</div>
 		
@@ -96,6 +98,7 @@
 		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 		crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="aos-master/dist/aos.js"></script>
 		<script>
 		$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -122,6 +125,7 @@
 	function popout3() {
 	alert("Munster have always had the best support base in European rugby which has been a key element in our success");
 	}
+	AOS.init();
 		
 		
 		</script>
